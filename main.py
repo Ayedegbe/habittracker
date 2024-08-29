@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 today = datetime.now()
 GRAPH_ID = "graph1"
-TOKEN = "Randomization"
+TOKEN = "..."
 USERNAME = "ayedegbe"
 pixela_endpoint = "https://pixe.la/v1/users"
 graph_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs"
